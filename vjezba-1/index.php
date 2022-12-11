@@ -14,7 +14,7 @@ print '
     <p>Da Vincijev kod je kriminalistički triler američkog pisca Dana
     Browna.</p>
     <a href="https://hr.wikipedia.org/wiki/Da_Vincijev_kod
-    " target="_blank">Poveznica</a>
+    " target="_blank">Poveznice</a>
 </body>
 </html>
 <!-- ZADATAK-1. -->'
