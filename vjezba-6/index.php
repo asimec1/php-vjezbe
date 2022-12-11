@@ -23,9 +23,9 @@
     <input type="submit" value="/" name="operator">
   </form>
   <?php
-    $prviBroj = $_POST["number1"];
-    $drugiBroj = $_POST["number2"];
-    $operator = $_POST["operator"];
+    if (isset($_POST["number1"])) { $prviBroj = $_POST["number1"]; }
+    if (isset($_POST["number2"])) { $drugiBroj = $_POST["number2"]; }
+    if (isset($_POST["number1"])) { $operator = $_POST["operator"]; }
     $rezultat = '';
 
     if (isset($_POST["number1"]) && isset($_POST["number2"])) {
